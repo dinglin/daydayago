@@ -1,0 +1,140 @@
+@CHARSET "UTF-8";
+.pointer{
+    cursor:pointer;
+    color:gray;
+}
+.pointer:hover{
+    color:#333333;
+}
+.dda_content_top{
+     margin-top:20px;
+}
+
+.table-hover tbody tr:hover > td, .table-hover tbody tr:hover > th{
+    background-color:#EAEAEA;
+}
+.dda_t_bg_color{
+    background-color:#F6F6F6;
+    width:100%;
+}
+.dda_btn{
+    padding:4px 12px;
+    text-align:center;
+    line-height:20px;
+    display:inline-block;
+    color:white;
+    background-color:#0044CC;
+    cursor:pointer;
+}
+.dda_btn:hover{
+    background-color:#0066CC;
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+}
+.form-horizontal .controls{
+    margin-left:0px;
+}
+.bs-docs-sidenav.affix{
+    top:40px;
+}
+.bs-docs-sidenav{
+    background-color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    margin: 30px 0 0;
+    padding: 0;
+    width: 228px;
+}
+.bs-docs-sidenav > li:first-child > a{
+    border-radius: 6px 6px 0 0;
+}
+.bs-docs-sidenav > li > a{
+     border: 1px solid #E5E5E5;
+    display: block;
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+}
+.clock_num{
+    background-image:url("/Public/Images/static/clock.jpg");
+    background-position:0px -4px;
+    background-repeat:no-repeat;
+    display:inline-block;
+    line-height:39px;
+    margin-top:1px;
+    height:39px;
+    line-height:28px;
+    vertical-align:middle;
+    width:27px;
+}
+.clock_num_0{
+    background-position:0px -4px;
+}
+.clock_num_1{
+    background-position:-31px -4px;
+}
+.clock_num_2{
+    background-position:-61px -4px;
+}
+.clock_num_3{
+    background-position:-91px -4px;
+}
+.clock_num_4{
+    background-position:-121px -4px;
+}
+.clock_num_5{
+    background-position:0px -47px;
+}
+.clock_num_6{
+    background-position:-31px -47px;
+}
+.clock_num_7{
+    background-position:-61px -47px;
+}
+.clock_num_8{
+    background-position:-91px -47px;
+}
+.clock_num_9{
+    background-position:-121px -47px;
+}
+.dda_clock_size{
+   height:43px;
+   padding-top:1px;
+   padding-bottom:1px;
+}
+.dda_input_default_color{
+    color:#A3A3A3;
+}
+.dda_input_content_color{
+    color:#555555;
+}
+.dda_error_text{
+   color:#B94A48;
+}
+.dda_info_text{
+   color:#3A87AD;
+}
+.dda_memo_content{
+    height:20px;
+    width:70%;
+    max-width:600px;
+    min-width:500px;
+    min-height:20px;
+    max-height:60px;
+}
+.table th, .table td{
+    vertical-align:middle;
+}
+.dda_accordion{
+    width:86%;
+}
+.accordion-group{
+    border:0px;
+}
+.accordion-group .accordion-heading .accordion-toggle{
+    padding:8px 0px;
+}
+.accordion-group .accordion-inner{
+    padding:9px 0px;
+    border-top:0px;
+}

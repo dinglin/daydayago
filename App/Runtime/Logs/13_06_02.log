@@ -1,0 +1,481 @@
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001493s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001622s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013655s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000600s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000491s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000307s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002386s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000920s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Admin/Public/top
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.010114s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010269s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023945s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000482s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000452s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000297s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002080s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Admin/Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004642s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005098s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028193s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000502s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000459s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000447s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002352s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000985s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Admin/Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003587s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003807s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028005s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002646s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000766s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000485s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006900s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001789s ]
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Admin/Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.022882s ]
+INFO: [ view_template ] --END-- [ RunTime:0.023066s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033475s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000464s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000447s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000297s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002054s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000761s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/Css/style.css
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/Js/prototype.js
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/Css/blue.css
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/Js/Base.js
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/Js/mootools.js
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/Js/Think/ThinkAjax.js
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/Js/Form/CheckForm.js
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/Js/common.js
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/css/style.css
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/images/error.gif
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/images/write.gif
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/Images/bar_close.gif
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/Images/body_bg.gif
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/images/checked_out.png
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/Images/bar_open.gif
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /Public/images/home.gif
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:00:14+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:05:57+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002724s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022265s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001233s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001316s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001153s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005618s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002019s ]
+
+[ 2013-06-02T00:05:57+08:00 ] 127.0.0.1 /Admin/Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004990s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005146s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023670s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001325s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001249s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001340s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005726s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001817s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001996s ]
+
+[ 2013-06-02T00:05:57+08:00 ] 127.0.0.1 /Admin/Public/top
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002287s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002485s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032402s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001541s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001131s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000793s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005258s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2013-06-02T00:05:57+08:00 ] 127.0.0.1 /Admin/Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002098s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002267s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014685s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001233s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000983s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000829s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004662s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001484s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2013-06-02T00:05:57+08:00 ] 127.0.0.1 /Admin/Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002199s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002363s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015998s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001129s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001146s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000840s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004572s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001388s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001486s ]
+
+[ 2013-06-02T00:05:58+08:00 ] 127.0.0.1 /Public/Images/body_bg.gif
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:05:58+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:06:03+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:06:21+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:06:24+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:06:33+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:06:38+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:10:03+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:10:17+08:00 ] 127.0.0.1 /admin
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002071s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002197s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015041s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001014s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001066s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000835s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004835s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2013-06-02T00:10:18+08:00 ] 127.0.0.1 /admin/Public/top
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005209s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022763s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000577s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000500s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000340s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002716s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001082s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2013-06-02T00:10:18+08:00 ] 127.0.0.1 /admin/Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002277s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002443s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033896s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001280s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001314s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000981s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005028s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001319s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2013-06-02T00:10:18+08:00 ] 127.0.0.1 /admin/Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002196s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029460s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001572s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001800s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001470s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007272s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002092s ]
+
+[ 2013-06-02T00:10:18+08:00 ] 127.0.0.1 /admin/Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002537s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002733s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025878s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004195s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001721s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001629s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010188s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001643s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2013-06-02T00:10:18+08:00 ] 127.0.0.1 /Public/Images/body_bg.gif
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:10:18+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:10:24+08:00 ] 127.0.0.1 /admins
+ERR: 无法加载模块:admins
+
+[ 2013-06-02T00:10:24+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:10:49+08:00 ] 127.0.0.1 /admin
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001466s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001590s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013126s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000479s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000462s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000299s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002088s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000797s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2013-06-02T00:10:49+08:00 ] 127.0.0.1 /admin/Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007518s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007693s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016904s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000520s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000463s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000656s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002547s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2013-06-02T00:10:49+08:00 ] 127.0.0.1 /admin/Public/top
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.012988s ]
+INFO: [ view_template ] --END-- [ RunTime:0.013231s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015433s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000485s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000456s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000299s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002125s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2013-06-02T00:10:49+08:00 ] 127.0.0.1 /admin/Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000723s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000909s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011276s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000459s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000456s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000298s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002267s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001052s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2013-06-02T00:10:50+08:00 ] 127.0.0.1 /admin/Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001796s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001947s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013226s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000455s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000449s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000293s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002641s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000847s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2013-06-02T00:10:50+08:00 ] 127.0.0.1 /Public/Images/body_bg.gif
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:10:50+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:13:11+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:13:21+08:00 ] 127.0.0.1 /Public/Js/Ajax/ThinkAjax.js
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T00:13:22+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:13:32+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:13:43+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:13:44+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:13:54+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T00:14:09+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T10:26:45+08:00 ] 127.0.0.1 /Public/images/idx_btnbg.gif
+ERR: 无法加载模块:Public
+
+[ 2013-06-02T15:00:30+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T15:00:30+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T17:02:28+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T17:02:28+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:favicon.ico
+
+[ 2013-06-02T17:03:23+08:00 ] 127.0.0.1 /view
+ERR: 无法加载模块:view
+
+[ 2013-06-02T17:04:04+08:00 ] 127.0.0.1 /view
+ERR: 无法加载模块:view
+
+[ 2013-06-02T17:04:04+08:00 ] 127.0.0.1 /view
+ERR: 无法加载模块:view
+

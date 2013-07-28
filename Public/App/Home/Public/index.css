@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+body{
+    font-size: 9pt;
+    font-family: Tahoma, Verdana, STHeiTi, simsun, sans-serif;
+    background: #dde1e5;
+    min-width: 1020px;
+    padding-top:40px;
+}
+.header_top_content{
+    margin:0 auto;
+    width:980px;
+}
+.header_top_right{
+    float:right;
+}

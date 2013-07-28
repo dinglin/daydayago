@@ -1,0 +1,149 @@
+<include file="Public:header"/>
+
+<!-- Begin page content -->
+<div class="container dda_content_top">
+    <div class="row">
+       <div class="span3 bs-docs-sidebar">
+            <ul class="nav nav-list bs-docs-sidenav affix">
+                <li class="active"><a href="#home" data-toggle="tab">我的备忘录</a></li>
+                <li><a href="#home" data-toggle="tab">给XXX的备忘录</a></li>
+            </ul>
+       </div>
+       <div class="span9">
+                <div class="span10" id="input_memo_set_hide">
+                    <form action="" method="post" id="memo_form" class="form-horizontal">
+                         <div class="control-group" id="error_control_input_memo">
+                            <div class="controls">
+                               <textarea name="memo" id="memo_content" class="dda_memo_content" placeholder="今天的备忘录"  onkeydown="forbiddance_paste(event)" onpaste="return false" oncontextmenu = "return false;"></textarea>
+                               <span class="help-inline" ><b><span id="memo_content_length">{$max_length/2}</span></b>字</span>
+                            </div>
+                         </div>
+                         <div id="input_memo_set" style="display:none;">
+                           <div class="control-group">
+                               <div class="controls">
+                                   <select name="time" id="notice_time" class="span2 dda_input_default_color">
+                                      <volist name="date" id="vo" key="i">
+                                      <if condition="$vo.val eq 'AM' || $vo.val eq 'PM' "> 
+                                      <optgroup label="{$vo.val}">{$vo.key}</optgroup>
+                                      <else/>
+                                      <option value="{$vo.val}">{$vo.key}</option>
+                                      </if>
+                                      </volist>
+                                   </select>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;
+                                   <i class="icon-time"></i>
+                                   <span class="help-inline dda_info_text" id="info_time_notice"></span>
+                                   <span class="help-inline dda_error_text" id="error_time_notice"></span>
+                               </div>
+                               <div class="controls controls-row">
+                                       <input type="text" id="date_start" name="date_start" placeholder="开始日期"/> 
+                                       <input type="text"  id="date_end" name="date_end" placeholder="结束日期"/>
+                               </div>
+                           </div>
+                           <div class="control-group">
+                               <div id="radio_weight" class="ui-buttonset controls">
+                                    <input type="radio" name="weight" id="radio1" class="ui-helper-hidden-accessible" value="0" checked="checked">
+                                    <label for="radio1" class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left ui-state-active" role="button" aria-disabled="false" aria-pressed="true">
+                                        <span class="ui-button-text">普通</span>
+                                    </label>
+                                    <input type="radio" name="weight" id="radio2" class="ui-helper-hidden-accessible" value="1">
+                                    <label for="radio2" class="ui-button ui-widget ui-state-default ui-button-text-only" role="button" aria-disabled="false" aria-pressed="false">
+                                        <span class="ui-button-text">重要</span>
+                                    </label>
+                                    <input type="radio" name="weight" id="radio3" class="ui-helper-hidden-accessible" value="2">
+                                    <label for="radio3" class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right" role="button" aria-disabled="false" aria-pressed="false">
+                                        <span class="ui-button-text">特别重要</span>
+                                    </label>
+                               </div>
+                            </div>
+                            <div class="control-group">
+                               <div id="radio_public" class="ui-buttonset controls">
+                                    <input type="radio" name="is_public" id="radio10" class="ui-helper-hidden-accessible" value="0" checked="checked">
+                                    <label for="radio10" class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left ui-state-active" role="button" aria-disabled="false" aria-pressed="true">
+                                        <span class="ui-button-text">仅自己可见</span>
+                                    </label>
+                                    <!-- <input type="radio" name="is_public" id="radio2" class="ui-helper-hidden-accessible" value="1">
+                                    <label for="radio2" class="ui-button ui-widget ui-state-default ui-button-text-only" role="button" aria-disabled="false" aria-pressed="false">
+                                        <span class="ui-button-text">重要</span>
+                                    </label> -->
+                                    <input type="radio" name="is_public" id="radio12" class="ui-helper-hidden-accessible" value="2">
+                                    <label for="radio12" class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right" role="button" aria-disabled="false" aria-pressed="false">
+                                        <span class="ui-button-text">所有人可见</span>
+                                    </label>
+                               </div>
+                            </div>
+                         </div>
+                         <div class="control-group">
+                            <div class="controls">
+                                <input name="is_larger" type="hidden" value="0" id="is_larger">
+                                <a class="dda_btn" onclick="do_submit()" >好的，保存</a> 
+                                <span id="input_memo_larger" class="pointer"><i id="icon_th_large" class="icon-th-large icon-white"></i>高级</span>
+                                <p class="text-error">{$error_msg}</p>
+                            </div>
+                         </div>
+                    </form>
+                </div>
+                <if condition="!empty($memos) "> 
+                    <div class="span4"><a href="#"><i class="icon-arrow-left"></i>前一天</a>   <a href="#">后一天<i class="icon-arrow-right"></i></a></div>
+                    <table class="table table-hover dda_t_bg_color">
+                    <tbody>
+                        <volist name="memos" id="vo">
+                        <tr style="color:{$vo.text_color};">
+                            <td width="">{$vo.content_smail}</td>
+                            <td width="27%">
+	                            <if condition="!$vo.iswarn eq '2' ">
+	                            <button class="btn btn-large dda_clock_size">
+	                            <i class="clock_num clock_num_{$vo.time.0}"></i><i class="clock_num clock_num_{$vo.time.1}"></i> : 
+	                            <i class="clock_num clock_num_{$vo.time.3}"></i><i class="clock_num clock_num_{$vo.time.4}"></i>
+	                            </button></if> 
+                            </td>
+                            <td width="20%">
+                                <span class="label">
+                                <if condition="!$vo.ispublic ">私密
+                                <elseif condition="$vo.ispublic eq '2' "/>公开
+                                </if>
+                                </span>&nbsp;&nbsp;
+                                <if condition="!$vo.iswarn ">
+                                    <a href="#myModal" data-toggle="modal">好的，知道了</a>
+                                </if>
+                            </td>
+                            <td width="10%">
+                                <if condition="$vo.iswarn neq '1' ">
+                                 <div class="dropdown dropup">
+                                     <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">设置
+                                         <span class="caret"></span>
+                                     </a>
+                                     <ul class="dropdown-menu"  role="menu" aria-labelledby="dLabel">
+                                         <li class="dropdown-submenu pull-left">
+                                             <a><i class="icon-eye-open"></i>  公开</a>
+                                             <ul class="dropdown-menu">
+                                                 <li><a href="tabindex" tabindex="-1">个人</a></li>
+                                                 <li><a href="tabindex" tabindex="-1">与她</a></li>
+                                                 <li><a href="tabindex" tabindex="-1">所有</a></li>
+                                             </ul>
+                                         </li>
+                                         <li><a href="tabindex" tabindex="-1"><i class="icon-trash"></i>  删除</a></li>
+                                         <li><a href="tabindex" tabindex="-1"><i class="icon-edit"></i>  高级</a></li>
+                                     </ul>
+                                 </div>
+                                 </if>
+                            </td>
+                        </tr>
+                        </volist>
+                    </tbody>
+                    </table>
+                </if>
+            </div>
+     </div>
+</div>
+<<script type="text/javascript">
+<!--
+var date_today="{$today}";
+var date_tomorrow = "{$tomorrow}";
+var one_month_later = "{$one_month_later}";
+var max_length = {$max_length};
+var time_today = {$today_time_json};
+var time_all = {$all_time_json};
+//-->
+</script>
+<include file="Public:footer"/>

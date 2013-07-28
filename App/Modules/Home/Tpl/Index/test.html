@@ -1,0 +1,30 @@
+
+<!-- Begin page content -->
+<div class="container">
+<form method='post' id="login" name="form1" action="__URL__/login" >
+<div class="control-group" id="login_dialog">
+  <div class="controls">
+    <div class="input-prepend">
+      <span class="add-on"><i class="icon-envelope"></i></span>
+      <input class="span2" name="user-mail" id="login-mail" type="text" placeholder="邮箱">
+    </div>
+  </div>
+  <div class="controls">
+    <div class="input-prepend">
+      <span class="add-on"><i class="icon-lock"></i></span>
+      <input class="span2" name="user-pwd" id="login-pwd" type="password" placeholder="密码">
+    </div>
+  </div>
+  <div class="controls">
+    <button class="btn btn-primary" id="login_btn" type="button" style="width:165px;">登录</button>
+    <a href="javascript:void(0);" class="to_register" id="to_register">去注册</a>
+  </div>
+</div>
+</form>
+<div class="error_log"><span id="mail_error"></span><span id="pwd_error"></span><span></span></div>
+</div>
+<script type="text/javascript">
+<!--
+var check_mail_url = "__URL__/check_mail";
+//-->
+</script>

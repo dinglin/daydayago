@@ -1,0 +1,44 @@
+[ 2013-06-01T23:16:43+08:00 ] 127.0.0.1 /test/relation/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.004215s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_member`
+NOTIC: [8] Undefined offset:  0 E:\workspasephp\2013\daydayago\ThinkPHP\Lib\Core\Db.class.php 第 698 行.
+SQL: INSERT INTO `think_member` (`name`,`dept_id`) VALUES ('thinkphp',1) [ RunTime:0.000358s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_member` (`name`,`dept_id`) VALUES ('thinkphp',1)
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.000218s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_member` LIMIT 1  
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.000194s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_member` LIMIT 1  
+SQL: SELECT * FROM `think_member` ORDER BY id desc LIMIT 2   [ RunTime:0.000202s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_member` ORDER BY id desc LIMIT 2  
+NOTIC: [2] Invalid argument supplied for foreach() E:\workspasephp\2013\daydayago\test\relation\Lib\Action\IndexAction.class.php 第 41 行.
+NOTIC: [8] Undefined offset:  0 E:\workspasephp\2013\daydayago\ThinkPHP\Lib\Core\Db.class.php 第 281 行.
+SQL: UPDATE `think_member` SET `id`=0,`name`='tp',`dept_id`=2 WHERE ( `id` = 0 ) [ RunTime:0.000225s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : UPDATE `think_member` SET `id`=0,`name`='tp',`dept_id`=2 WHERE ( `id` = 0 )
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.000192s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_member` LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001570s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001673s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013936s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000632s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000471s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000295s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002566s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001026s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001127s ]
+
