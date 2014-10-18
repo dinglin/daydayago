@@ -233,10 +233,10 @@
 
 		var url = data[hashAjax.__aurl];
 		
-		if(FO){
-			if(FO.browser.isChrome()){
+		if(Browser){
+			if(Browser.isChrome()){
 				//no need 
-			}else if(FO.browser.isMozila()){
+			}else if(Browser.isMozila()){
 				url = encodeURIComponent(url);
 			}
 		}

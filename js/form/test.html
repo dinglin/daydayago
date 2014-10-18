@@ -1,0 +1,33 @@
+<script src="jquery-1.8.3.js"></script>
+<script src="object-clone.js"></script>
+<script src="jquery-plugin-form-json.js"></script>
+
+<form id="myform">
+
+	<input type="text" name="id" />
+
+	<input type="hidden" name="name" />
+	<input type="text" name="parent.name" />
+
+	<input type="radio" name="sex" value="1"/>
+	<input type="radio" name="sex" value="0"/>
+
+	<input type="checkbox" name="like" value="red"/>
+	<input type="checkbox" name="like" value="blue"/>
+
+	<select name="level">
+	   <option value="0">0</option>
+	   <option value="1">1</option>
+	   <option value="2">2</option>
+	</select> 
+	<textarea name="des"></textarea>
+
+	<label for="name" name="male"></label>
+
+</form>
+
+
+<script>
+var fromJson = $("#myform").serializeJson();
+console.log(fromJson);
+</script>

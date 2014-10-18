@@ -1,0 +1,33 @@
+<script src="jquery-1.8.3.js"></script>
+<script src="jquery-plugin-browser.js"></script>
+<script src="jquery-plugin-hash.js"></script>
+
+<a href="data1.html">data1.html</a>
+<a href="data2.html">data2.html</a>
+<div id="content">
+
+</div>
+
+
+<script>
+//注册
+$.hashAjax.register("get","data1.html",function(data){
+        $("#content").html(data);
+},"html");
+$.hashAjax.register("get","data2.html",function(data){
+        $("#content").html(data);
+},"html");
+
+//执行
+$.hashAjax.execute();
+
+//添加事件
+$("a").click(function(e){
+
+    var dataUrl = $(this).attr("href");
+
+    $.hashAjax.request(dataUrl,{});
+
+    e.preventDefault();
+});
+</script>
